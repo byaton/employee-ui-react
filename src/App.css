@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+table {
+  border: 2px solid #42b983;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+th {
+  background-color: #42b983;
+  color: rgba(255, 255, 255, 0.66);
+  cursor: pointer;
+  user-select: none;
+}
+
+td {
+  background-color: #f9f9f9;
+}
+
+th,
+td {
+  min-width: 120px;
+  padding: 10px 20px;
+}
+
+.nav-items {
+  display: flex;
+  margin-top: 5rem;
+  margin-left: 35rem;
+}
+
+nav {
+  margin-right: .5rem;
+  margin-left: .5rem
+}
+
+.all-values {
+  margin-left: 30ch;
+  margin-top: 10ch;
+  display: flex;
+  flex-direction: column;
+}
+
+.label-buttons {
+  display: flex;
+}
+
+.label-headers {
+  flex-direction: column;
+  display: flex;
+}
+
+.label-values {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4ch;
+}
+
+.submit-button {
+  width: 10ch;
+  margin-left: 17ch;
+  margin-top: 5ch;
+}
